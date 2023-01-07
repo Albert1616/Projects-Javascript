@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Produtos</title>
+</head>
+<body>
+    <header>
+        <h1>CRUD - Produtos</h1>
+    </header>
+    <table class="data_table">
+        <thead>
+            <td>Id</td>
+            <td>Preço</th>
+            <td>Nome</th>
+        </thead>
+        <tbody>
+            <tr class="id">
+                <td>Exemplo</td>
+                <td>Exemplo</td>
+                <td>Exemplo</td>
+            </tr>
+            <tr class="cost">
+                <td>Exemplo</td>
+                <td>Exemplo</td>
+                <td>Exemplo</td>
+            </tr>
+            <tr class="action">
+                <td>Exemplo</td>
+                <td>Exemplo</td>
+                <td>Exemplo</td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="buttons">
+        <button onclick="mostrarForm()">Cadastrar produto</button>
+        <button>Editar produto</button>
+        <button>Deletar produto</button>
+    </div>
+    <form class="form_newproduct">
+        <label for="name">Nome: </label>
+        <input type="text" name="name">
+        <label for="cost">Preço: </label>
+        <input type="number" name="cost">
+        <button class="new_cadastro" onclick="esconderForm()">Cadastrar</button>
+    </form>
+</body>
+</html>

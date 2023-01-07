@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(113, 18, 202);
+    padding: 20px;
+}
+.data_table{
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 50%;
+    background-color: #341D4A;
+    color: #c0bfbf;
+}
+table,thead,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+thead{
+    background-color:#29074A;
+}
+thead td:hover{
+    background-color: #3c0d6b;
+    color: white;
+}
+td:hover{
+    background-color: #462863;
+    color: white;
+}
+.data_table th{
+    background-color: rgb(97, 95, 95);
+}
+#buttons{
+    margin-top: 20px;
+    text-align: center;
+}
+#buttons button{
+    padding: 12px;
+    background-color: #9B30FF;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.form_newproduct{
+    margin-top: 20px;
+    text-align: center;
+    display: none;
+}
+.form_newproduct button{
+    padding: 6px;
+    background-color: #9B30FF;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
