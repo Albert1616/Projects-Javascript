@@ -20,21 +20,10 @@
             <th>Ação</th>          
         </thead>
         <tbody id="table_content">
-         <!--    <tr class="id">
-                <td>Exemplo</td>
-                <td>Exemplo</td>
-                <td>Exemplo</td>
-                <td>
-                    <img src="images/edit.png" alt="">
-                    <img src="images/trash-can.png" alt="">
-                </td>
-            </tr> -->
         </tbody>
     </table>
     <div id="buttons">
-        <button onclick="mostraForm()">Cadastrar produto</button>
-        <button>Editar produto</button>
-        <button>Deletar produto</button>
+        <button onclick="produto.mostraForm()">Cadastrar produto</button>
     </div>
     <form class="form">
         <div class="input_line">
@@ -49,7 +38,7 @@
             <button class="create" onclick="produto.create()" type="button">Cadastrar</button>
             <div class="clear_cancel">
                 <button class="clear" onclick="produto.clearForm()" type="button">Limpar</button>
-                <button class="cancel">Cancelar</button>
+                <button class="cancel" onclick="produto.cancel()" type="button">Cancelar</button>
             </div>
         </div>
         
