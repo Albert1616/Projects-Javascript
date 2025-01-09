@@ -100,22 +100,6 @@ td:hover{
     justify-content: space-between;
 }
 
- /*
-.form_newproduct input{
-    display: block;
-    width: 80%;
+.material-symbols-outlined {
+    cursor: pointer;
 }
-.form_newproduct label{
-    padding: 5px 10px 5px 10px;
-}
-.form_newproduct input{
-    padding: 5px 10px 5px 10px;
-    margin: 5px 0 5px 0;
-}
-.form_newproduct button{
-    padding: 6px;
-    background-color: #9B30FF;
-    color: white;
-    border: 1px solid transparent;
-    border-radius: 5px;
-} */
